@@ -1,0 +1,150 @@
+﻿MEET Y1 - Day 2 - Lab Part 2
+Variables and Errors
+
+In this lab, you will learn how to assign values to variables, how to change the values of a variable, and how to recognize errors in code.
+
+Follow these instructions:
+0. 	 In Google Docs, at the top left of your screen, click File > Download as > Microsoft Word … so that you can edit this lab document.
+1. 	Open IDLE3  	
+
+2. 	In the python shell, define two variables with the following code:
+
+
+
+3. 	Type the following to try to switch a and b:
+
+
+
+
+4. 	What are the new values of a and b? Find out by typing a and pressing the Enter key.
+>>> a
+_____
+>>> b
+_____
+
+5. 	What happened? Type the following:
+	>>> a = 5
+	>>> b = 10
+	>>> a = b
+	>>> a
+	______
+	>>> b
+	______
+What happened?
+When we set a = b, the value in a changed to 10. So both variables a and b have value 10. Then, when we set b = a, the value of a was 10 so the value b of did not change.
+
+6. 	Now let's add a third box called c.
+
+
+
+7.  Type 
+>>> a = 5
+Now let's use c to hold the value of a. Type 
+>>> c = a.
+This is what the values of our variables a, b, and c look like now:
+
+8. 	Now let a be equal to the value of b. Type
+>>> a = b
+This code takes the value in b and puts it in a:
+
+9. 	Finally, let b be equal to the value of c by typing 
+>>> b = c
+This code takes the value of c and puts it in b.
+
+10. You switched the values of a and b! Now find the values of a and b. Type:
+	>>> a
+	______
+	>>> b
+	______
+
+Strings
+11.	Now set a variable named four equal to the string 4.
+	>>> four = '4'
+12. 	What happens when you type 
+>>> print(four*3)
+	_________
+	Why did this happen?
+13.	Now set a variable called five equal to the integer 4.
+	
+	_______
+	
+	_______
+14. 	Talk with the person next to you to figure out why print(five*3) did not output 15.
+
+
+Debugging practice! Find the errors and fix them
+Below you will see 4 mini-programs. Read the intention of each program. Try running the programs by copying the code into the python shell to see what the bad code output is. Then fix the code. The first table is filled out as an example.
+
+ Example: 
+Intention
+Print out "My name is student"
+Bad Code
+>>> my_name = 'student'
+>>> print("My name is ' + 'my_name")
+Bad Code Output
+My name is ' + 'my_name
+Correct code
+>>> print("My name is " + my_name)
+
+
+15. You try!
+Intention
+Print out "Hi, student"
+Bad Code
+>>> my_name = 'student'
+>>> print("Hi," + myName')
+Bad Code Output
+Name error
+
+Correct code
+Need to write my_name
+
+
+
+16.
+Intention
+Print out "I am 15 years old"
+Bad Code
+>>> my_age = 15
+>>> print('I am ' + my_age + 'years old')
+Bad Code Output
+
+Type error
+
+Correct code
+
+>>> my_age='15'
+>>> print('I am ' + my_age + 'years old')
+I am 15years old
+>>> 
+
+
+
+17.
+Intention
+Print out the total score
+Bad Code
+>>> score = 4
+>>> count = "5"
+>>> total = score * count
+>>> print(total)
+Bad Code output
+5555
+
+
+Correct code
+>>> score=4
+>>> count=5
+>>> total=count*score
+>>> print(total)
+20
+
+
+
+Lab 2 Bonus:
+    1. If you finish early, go back and complete all the previous labs if you have not finished them.
+    2. In IDLE3   click File → New File and then save the python file as “debugging.py”.  Copy the code from the file “Debugging Turtle” into your file. Now fix the code so that when you hit F5 it runs without any errors! When you are done - show an instructor or TA!
+    3. Make a cool design with turtle!
+
+ At the end of class take today's survey 
+

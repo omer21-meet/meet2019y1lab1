@@ -1,0 +1,5 @@
+name = input("Whats your name?")
+print("Hello there " + name.capitalize())
+name1 = len(name)
+print("The number of letters in your name is: " + str(name1))
+print("The first of your name is: " + (name1[0:1]))
